@@ -64,7 +64,7 @@ namespace MeusPedidos.Controllers
                     var result = sendEmail.Email(model.Name, model.Email, subject, body);
                 }                
             }
-            //Não pode
+            
             return View("ThankYou");
         }        
     }
